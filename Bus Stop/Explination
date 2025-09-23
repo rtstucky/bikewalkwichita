@@ -1,0 +1,1 @@
+These are two scripts I created to conduct analysis on the number of bus stops that have benches in Wichita. I cleaned up some of the data provided by the City of Wichita GIS and then used over () to find percentages of stops with and without benches. 
