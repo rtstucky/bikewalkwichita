@@ -1,0 +1,7 @@
+ogr2ogr -f "PostgreSQL" \
+  PG:"dbname=wichita user=rts host=localhost port=5432" \
+  /Users/rts/Desktop/DECENNIALDP2020.DP1_2025-09-25T113533/DECENNIALDP2020.DP1-Data.csv \
+  -oo AUTODETECT_TYPE=YES \
+  -nln "AgePopulation2020" \
+  -lco FID=gid \
+  -lco PRECISION=NO
